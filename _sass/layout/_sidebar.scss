@@ -322,3 +322,19 @@
     }
   }
 }
+
+/* Always show the profile links (no "Follow" dropdown) */
+.author__urls {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+
+  &:before,
+  &:after {
+    display: none;
+  }
+}
